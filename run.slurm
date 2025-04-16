@@ -9,7 +9,7 @@
 #SBATCH --partition=compute
 
 # Navigate to your working directory
-cd /scratch/hdrost/D10
+cd /path/to/your/folder
 
 # Run OpenFOAM commands
 ./Allrun
