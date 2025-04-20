@@ -1,0 +1,15 @@
+This repository contains the numerical model setup for simulating wave interaction with a monopile in a perforated configuration using OpenFOAM. The model was developed as part of the MSc thesis research on wave run-up and hydrodynamic forces on offshore monopiles at Delft University of Technology.
+
+The computational domain has a length of 7.5L, a width of 0.6L, and a height ranging from -20 m to 20 m, with sea level at 0 m. The monopile center is positioned at 3.2L from the domain start. The inlet and outlet zones both have a length of 2L, ensuring smooth wave generation and absorption.
+
+Mesh refinement of ±H is applied around the sea surface, where H = 3.5 m and the wave period T = 7 s. All other numerical settings (meshing, boundary conditions, solvers, turbulence modeling) follow the configurations described in the MSc thesis.
+
+Surface elevation and run-up around the monopile are captured using the following probes:
+
+surfaceElevation1: 15 probes distributed horizontally from the start of the inlet zone up to the monopile.
+
+surfaceElevation2: 15 probes distributed from behind the monopile towards the outlet boundary.
+
+surfaceElevation3: 5 probes placed horizontally next to the monopile over a distance equal to the monopile diameter (D).
+
+monopileElevation: 16 probes arranged circularly around the monopile as described in the report.
