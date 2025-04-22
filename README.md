@@ -2,7 +2,7 @@
 This repository contains the OpenFOAM simulation setups used in my MSc thesis on wave run-up and hydrodynamic loading on monopile structures. All simulations were conducted using OpenFOAM v2206 in combination with the waves2Foam toolbox.
 
 A link to the MSc thesis is provided here:
-
+https://repository.tudelft.nl/record/uuid:edadfaaa-6970-45ec-b599-16f52b027862 
 
 To run these models, make sure you have OpenFOAM v2206 installed. Installation instructions for v2206 can be found here:
 https://www.openfoam.com/news/main-news/openfoam-v2206
